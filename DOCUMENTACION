@@ -1,0 +1,19 @@
+Documentación
+
+Esta página es un proyecto simple con una estructura ordenada
+
+El head de la página trae lo básico e importa iconos de otra pagina
+
+
+La navegación se maneja por un NAV que te deja recorrer varias secciones de la pagina
+
+El footer se basa en una serie de enlaces a los pensum de cada carrera
+
+
+De igual forma también se encarga de llevarte a las redes sociales de la universidad
+
+
+El input tanto de usuario como de profesor estan hechos de igual forma
+
+
+Toda la página esta creada de la forma más simple posible así esta pueda ser entendible y modificable en el futuro
