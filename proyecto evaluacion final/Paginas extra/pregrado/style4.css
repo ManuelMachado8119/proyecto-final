@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color:white;
+    color: black;
+    padding-top: 15px;
+}
+
+nav ul{
+   background-color:  rgba(10,75,149,254);
+   width: 100%;
+   list-style-type: none;
+   text-align: center;
+   font-weight: 700;
+   font-size: 25px;
+}
+
+nav li{
+    display: inline-flex;
+    padding-inline: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10%;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-size: cover;
+    
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 10px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+
+.contenido h2{
+    text-align: center;
+}
+
+.imagen_principal{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    padding-left: 400px;
+    padding: 30px;
+}
+
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+}
+
+.section-6 p{
+    font-family:Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 32px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.section-6 h2 {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+}
+
+/* Se crea y modifica el grap */
+.section-6-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px , 1fr));
+    gap: 50px;
+    margin-top: 2cm;
+}
+
+.section-6-br{
+    padding: 52px;
+}
+
+.section-6-card {
+    width: 80%;
+    height: 320px;
+    border: 2px solid;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 29px 0px 0px;
+    border: none;
+    padding: 15px;
+}
+
+.section-6-container-card p {
+    font-weight: 900;
+    color: black;
+}
+
+@media (min-whitd: 768px) {
+    nav{
+        display: flex;
+        align-items: center;
+        position: inherit;
+    }
+}
